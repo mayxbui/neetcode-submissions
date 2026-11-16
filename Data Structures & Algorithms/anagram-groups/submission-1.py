@@ -15,6 +15,8 @@
     # store key as sorted string
     # if key is new, store string in key:[string]
 # return values of dict in a list [[...],[...]] 
+# Time: O(N * LlogL) for looping through N strings and sorting L characters each string
+# Space: O(N*L) because sorting creates an array of L characters for each string but temporarily 
 
 
 class Solution:

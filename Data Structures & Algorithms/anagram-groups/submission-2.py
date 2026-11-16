@@ -16,6 +16,9 @@
     # if key is new, store string in key:[string]
 # return values of dict in a list [[...],[...]] 
 
+# Time: O(N * L logL) as N strings and sort L characters each string
+# Space: O(N*L) for storing new N original strings with L characters
+
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
